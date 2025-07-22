@@ -1,0 +1,72 @@
+{
+  "Pokemon FireRed": [
+    {
+      "name": "Infinite Money",
+      "code": "29C78059 96542194",
+      "enabled": false
+    },
+    {
+      "name": "Walk Through Walls",
+      "code": "509197D3 542975F4\n78DA95DF 44018CB4",
+      "enabled": false
+    },
+    {
+      "name": "Rare Candies",
+      "code": "BFF956FA 2F9EC50D",
+      "enabled": false
+    },
+    {
+      "name": "Master Ball",
+      "code": "958D8046 A7151D70\n8BB602F7 8CEB681A",
+      "enabled": false
+    }
+  ],
+  "Pokemon Emerald": [
+    {
+      "name": "Unlimited Money",
+      "code": "C051CCF6 975E8DA1",
+      "enabled": false
+    },
+    {
+      "name": "Walk Through Walls",
+      "code": "7881A409 E2026E0C\n8E883EFF 92E9660D",
+      "enabled": false
+    }
+  ],
+  "The Legend of Zelda: The Minish Cap": [
+    {
+      "name": "Infinite Health",
+      "code": "04D85E22 5622E8A2",
+      "enabled": false
+    },
+    {
+      "name": "Always Have Roc's Cape",
+      "code": "7A036F8D 52F4FD49",
+      "enabled": false
+    }
+  ],
+  "Metroid Fusion": [
+    {
+      "name": "Infinite Missiles",
+      "code": "C3836CB1 8F81DCFA",
+      "enabled": false
+    },
+    {
+      "name": "Infinite Health",
+      "code": "F4A24BE2 FCF4E003",
+      "enabled": false
+    }
+  ],
+  "Advance Wars": [
+    {
+      "name": "Max Funds",
+      "code": "BE5A1D54 49D7E084",
+      "enabled": false
+    },
+    {
+      "name": "All Units Available",
+      "code": "9AE54F17 2C00C3B6",
+      "enabled": false
+    }
+  ]
+}
