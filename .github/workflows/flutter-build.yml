@@ -1,0 +1,29 @@
+name: Build Elite GBA APK
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build APK
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.22.0'
+
+    - run: flutter pub get
+
+    - run: flutter build apk --release
+
+    - name: Upload Release APK
+      uses: actions/upload-artifact@v3
+      with:
+        name: elite-gba-apk
+        path: build/app/outputs/flutter-apk/app-release.apk
